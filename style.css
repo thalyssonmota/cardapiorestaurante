@@ -62,6 +62,7 @@ header .info {
   background: transparent;
   border: 2px solid #63e418;
   color: #63e418;
+  font-family: "Kaushan Script", cursive;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   cursor: pointer;
