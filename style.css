@@ -70,7 +70,6 @@ header .info {
   font-weight: bold;
 }
 
-.filters .active,
 .filters button:hover {
   background: #63e418;
   color: white;
