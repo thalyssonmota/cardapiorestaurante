@@ -83,15 +83,17 @@ header .info {
 .card {
   background: white;
   min-height: 360px;
-  border: 2px solid #63e418;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 8px 16px #63e418;
+  transition: box-shadow 0.3s;
   transition: transform 0.3s;
 }
 
 .card:hover {
   transform: translateY(-5px);
+  border: 2px solid #63e418;
+  box-shadow: none;
 }
 
 .card img {
@@ -107,6 +109,7 @@ header .info {
   text-align: left;
 }
 
+
 .card h3 {
   font-size: 1.1rem;
   display: flex;
@@ -115,9 +118,11 @@ header .info {
   margin-bottom: 0.5rem;
 }
 
+
 .card p {
   color: #2c5d0f;
 }
+
 
 .price {
   color: #63e418;
