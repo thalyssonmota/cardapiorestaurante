@@ -60,9 +60,10 @@ header .info {
 
 .filters button {
   background: transparent;
-  border: 2px solid #63e418;
+  border: none;
   color: #63e418;
   font-family: "Kaushan Script", cursive;
+  font-size: 18px;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   cursor: pointer;
