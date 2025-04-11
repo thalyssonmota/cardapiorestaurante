@@ -74,8 +74,10 @@ header .info {
 }
 
 .filters button:hover {
-  background: #63e418;
-  color: white;
+  /* background: #63e418;
+  color: white;  */
+  transform: translateY(-15px);
+  transition: 0.3s;
 }
 
 .menu-grid {
